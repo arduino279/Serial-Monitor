@@ -6,7 +6,7 @@
 
 **Import**
 
-1. Look up `<Name>` in the Library Manager and install the latest version
+1. Look up `Serial_Monitor` in the Library Manager and install the latest version
 2. Insert the following snippet
  
 ```ino
