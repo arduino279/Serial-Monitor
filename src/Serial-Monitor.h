@@ -37,6 +37,24 @@ int SerialMonitor::initialize() {
   } else {
     Serial.println("analogRead2 → " + value);
   }
+  value = serial.analogRead3();
+  if(value == NULL) {
+    Serial.println("analogRead3 → NULL");
+  } else {
+    Serial.println("analogRead3 → " + value);
+  }
+  value = serial.analogRead4();
+  if(value == NULL) {
+    Serial.println("analogRead4 → NULL");
+  } else {
+    Serial.println("analogRead4 → " + value);
+  }
+  value = serial.analogRead5();
+  if(value == NULL) {
+    Serial.println("analogRead5 → NULL");
+  } else {
+    Serial.println("analogRead5 → " + value);
+  }
   return true;
 }
 
