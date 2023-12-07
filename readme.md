@@ -13,11 +13,14 @@
 #include <Serial-Monitor.h>
 ```
 
-**Setup**
+### Setup
 
 ```ino
 SerialMonitor serial;
 ```
+
+### Use
+
 ```ino
 serial.initialize();
 ```
