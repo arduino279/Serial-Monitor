@@ -15,7 +15,10 @@ int SerialMonitor::initialize() {
   if(analogRead0 == 0) {
   } else if(analogRead1 == 0) {
   } else if(analogRead2 == 0) {
-  } else if(
+  } else if(analogRead3 == 0) {
+  } else if(analogRead4 == 0) {
+  } else if(analogRead5 == 0) {
+  } else {
   Serial.println("A0: " + analogRead0);
   Serial.println("A1: " + analogRead1);
   Serial.println("A2: " + analogRead2);
