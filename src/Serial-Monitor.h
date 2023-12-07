@@ -13,7 +13,9 @@ class SerialMonitor {
 int SerialMonitor::initialize() {
   Serial.begin(9600);
   if(analogRead0 == 0) {
-  } else {
+  } else if(analogRead1 == 0) {
+  } else if(analogRead2 == 0) {
+  } else if(
   Serial.println("A0: " + analogRead0);
   Serial.println("A1: " + analogRead1);
   Serial.println("A2: " + analogRead2);
