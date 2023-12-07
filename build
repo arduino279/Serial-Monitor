@@ -1,7 +1,7 @@
 cc_library(
-    name = "",
+    name = "Serial Monitor",
     srcs = [
-        "src/",
+        "src/Serial-Monitor.h",
     ],
     includes = [
         "src",
