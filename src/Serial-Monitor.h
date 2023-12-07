@@ -1,5 +1,4 @@
-String monitor_state = "Initializing...";
-int var = 0;
+String monitor_state = "";
 
 class SerialMonitor {
   public:
@@ -9,6 +8,5 @@ class SerialMonitor {
 int SerialMonitor::initialize() {
   Serial.begin(9600);
   Serial.print(monitor_state);
-  while(var > 200) {}
   return true;
 }
