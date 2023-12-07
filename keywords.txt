@@ -1,1 +1,1 @@
-SerialMonitor    KEYWORD2
+SerialMonitor    KEYWORD1
