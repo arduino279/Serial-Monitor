@@ -1,3 +1,4 @@
+int value = 0;
 int analogRead0 = analogRead(A0);
 int analogRead1 = analogRead(A1);
 int analogRead2 = analogRead(A2);
@@ -18,6 +19,12 @@ class SerialMonitor {
 
 int SerialMonitor::initialize() {
   Serial.begin(9600);
+  value = serial.analogRead0();
+  if(value == NULL) {
+    Serial.println("analogRead0 → NULL");
+  } else {
+    Serial.println("analogRead0 → " + value);
+  }
   return true;
 }
 
