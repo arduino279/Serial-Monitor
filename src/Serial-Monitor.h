@@ -8,6 +8,9 @@ int analogRead5 = analogRead(A5);
 class SerialMonitor {
   public:
     initialize();
+    analogRead0();
+    analogRead1();
+    analogRead2();
 };
 
 int SerialMonitor::initialize() {
@@ -20,5 +23,45 @@ int SerialMonitor::analogRead0() {
     return NULL;
   } else {
     return analogRead0;
+  }
+}
+
+int SerialMonitor::analogRead1() {
+  if(analogRead1 == NULL) {
+    return NULL;
+  } else {
+    return analogRead1;
+  }
+}
+
+int SerialMonitor::analogRead2() {
+  if(analogRead2 == NULL) {
+    return NULL;
+  } else {
+    return analogRead2;
+  }
+}
+
+int SerialMonitor::analogRead3() {
+  if(analogRead3 == NULL) {
+    return NULL;
+  } else {
+    return analogRead3;
+  }
+}
+
+int SerialMonitor::analogRead4() {
+  if(analogRead4 == NULL) {
+    return NULL;
+  } else {
+    return analogRead4;
+  }
+}
+
+int SerialMonitor::analogRead5() {
+  if(analogRead5 == NULL) {
+    return NULL;
+  } else {
+    return analogRead5;
   }
 }
