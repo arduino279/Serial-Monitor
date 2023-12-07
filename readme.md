@@ -21,6 +21,8 @@ SerialMonitor serial;
 
 ### Use
 
+Use this code in the `void loop() {}` function
+
 ```ino
 serial.initialize();
 ```
