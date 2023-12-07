@@ -12,19 +12,19 @@ class SerialMonitor {
 
 int SerialMonitor::initialize() {
   Serial.begin(9600);
-  if(analogRead0 == 0) {
-  } else if(analogRead1 == 0) {
-  } else if(analogRead2 == 0) {
-  } else if(analogRead3 == 0) {
-  } else if(analogRead4 == 0) {
-  } else if(analogRead5 == 0) {
+  if(analogRead0 > 0) {
+    Serial.println("Value of Analog Input 0: " + analogRead0);
+  } else if(analogRead1 > 0) {
+    Serial.println("Value of Analog Input 1: " + analogRead1);
+  } else if(analogRead2 > 0) {
+    Serial.println("Value of Analog Input 2: " + analogRead2);
+  } else if(analogRead3 > 0) {
+    Serial.println("A3: " + analogRead3);
+  } else if(analogRead4 > 0) {
+    Serial.println("A4: " + analogRead4);
+  } else if(analogRead5 > 0) {
+    Serial.println("A5: " + analogRead5);
   } else {
-  Serial.println("A0: " + analogRead0);
-  Serial.println("A1: " + analogRead1);
-  Serial.println("A2: " + analogRead2);
-  Serial.println("A3: " + analogRead3);
-  Serial.println("A4: " + analogRead4);
-  Serial.println("A5: " + analogRead5);
   }
   return true;
 }
