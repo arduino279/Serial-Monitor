@@ -10,20 +10,14 @@
 2. Insert the following snippet
  
 ```ino
-#include <example.h>
+#include <Serial-Monitor.h>
 ```
 
 **Setup**
 
 ```ino
-<Setup>
+SerialMonitor serial;
 ```
-**Parameters**
-
-* `i` Index
-
-**Example**
-
 ```ino
-<Example>
+serial.initialize();
 ```
