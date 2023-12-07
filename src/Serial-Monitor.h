@@ -4,5 +4,6 @@ class SerialMonitor {
 };
 
 int SerialMonitor::initialize() {
+  Serial.begin(9600);
   return true;
 }
