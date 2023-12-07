@@ -14,5 +14,9 @@ int SerialMonitor::initialize() {
   Serial.begin(9600);
   Serial.println("A0: " + analogRead0);
   Serial.println("A1: " + analogRead1);
+  Serial.println("A2: " + analogRead2);
+  Serial.println("A3: " + analogRead3);
+  Serial.println("A4: " + analogRead4);
+  Serial.println("A5: " + analogRead5);
   return true;
 }
