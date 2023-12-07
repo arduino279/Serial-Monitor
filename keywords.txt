@@ -1,2 +1,1 @@
-function1    KEYWORD2
-function2    KEYWORD2
+SerialMonitor    KEYWORD2
