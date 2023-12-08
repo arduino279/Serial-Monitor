@@ -12,6 +12,9 @@ int digitalRead5 = digitalRead(5);
 int digitalRead6 = digitalRead(6);
 int digitalRead7 = digitalRead(7);
 int digitalRead8 = digitalRead(8);
+int digitalRead9 = digitalRead(9);
+int digitalRead10 = digitalRead(10);
+int digitalRead11 = digitalRead(11);
 
 class SerialMonitor {
   public:
