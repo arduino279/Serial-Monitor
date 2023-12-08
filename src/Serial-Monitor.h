@@ -119,5 +119,9 @@ int SerialMonitor::analogRead5() {
 }
 
 int SerialMonitor::digitalRead2() {
-  if(digitalRead2 ==
+  if(digitalRead2 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead2;
+  }
 }
