@@ -125,3 +125,11 @@ int SerialMonitor::digitalRead2() {
     return digitalRead2;
   }
 }
+
+int SerialMonitor::digitalRead3() {
+  if(digitalRead3 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead3;
+  }
+}
