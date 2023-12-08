@@ -27,6 +27,8 @@ class SerialMonitor {
     analogRead3();
     analogRead4();
     analogRead5();
+    digitalRead2();
+    digitalRead3();
 };
 
 int SerialMonitor::initialize() {
