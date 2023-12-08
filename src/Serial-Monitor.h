@@ -133,3 +133,43 @@ int SerialMonitor::digitalRead3() {
     return digitalRead3;
   }
 }
+
+int SerialMonitor::digitalRead4() {
+  if(digitalRead4 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead4;
+  }
+}
+
+int SerialMonitor::digitalRead5() {
+  if(digitalRead5 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead5;
+  }
+}
+
+int SerialMonitor::digitalRead6() {
+  if(digitalRead6 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead6;
+  }
+}
+
+int SerialMonitor::digitalRead7() {
+  if(digitalRead7 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead7;
+  }
+}
+
+int SerialMonitor::digitalRead8() {
+  if(digitalRead8 == NULL) {
+    return NULL;
+  } else {
+    return digitalRead8;
+  }
+}
