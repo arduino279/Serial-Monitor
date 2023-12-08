@@ -10,6 +10,8 @@ int digitalRead3 = digitalRead(3);
 int digitalRead4 = digitalRead(4);
 int digitalRead5 = digitalRead(5);
 int digitalRead6 = digitalRead(6);
+int digitalRead7 = digitalRead(7);
+int digitalRead8 = digitalRead(8);
 
 class SerialMonitor {
   public:
