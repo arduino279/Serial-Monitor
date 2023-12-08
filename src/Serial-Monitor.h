@@ -5,6 +5,9 @@ int analogRead2 = analogRead(A2);
 int analogRead3 = analogRead(A3);
 int analogRead4 = analogRead(A4);
 int analogRead5 = analogRead(A5);
+int digitalRead2 = digitalRead(2);
+int digitalRead3 = digitalRead(3);
+int digitalRead4 = digitalRead(4);
 
 class SerialMonitor {
   public:
