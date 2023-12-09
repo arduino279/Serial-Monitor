@@ -1,6 +1,6 @@
 # Serial Monitor
 
-[![](https://img.shields.io/badge/Available_in_the_Arduino_Library_Manager-2ea44f)]()
+[![](https://img.shields.io/badge/Available_in_the_Arduino_Library_Manager-2ea44f)](<Link>)
 
 ## Get Started
 
