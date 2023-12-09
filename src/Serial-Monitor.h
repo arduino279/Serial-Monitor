@@ -97,6 +97,42 @@ int SerialMonitor::initialize() {
   } else {
     Serial.println("digitalRead4 → " + value);
   }
+  value = serial.digitalRead5();
+  if(value == NULL) {
+    Serial.println("digitalRead5 → NULL");
+  } else {
+    Serial.println("digitalRead5 → " + value);
+  }
+  value = serial.digitalRead6();
+  if(value == NULL) {
+    Serial.println("digitalRead6 → NULL");
+  } else {
+    Serial.println("digitalRead6 → " + value);
+  }
+  value = serial.digitalRead7();
+  if(value == NULL) {
+    Serial.println("digitalRead7 → NULL");
+  } else {
+    Serial.println("digitalRead7 → " + value);
+  }
+  value = serial.digitalRead8();
+  if(value == NULL) {
+    Serial.println("digitalRead8 → NULL");
+  } else {
+    Serial.println("digitalRead8 → " + value);
+  }
+  value = serial.digitalRead9();
+  if(value == NULL) {
+    Serial.println("digitalRead9 → NULL");
+  } else {
+    Serial.println("digitalRead9 → " + value);
+  }
+  value = serial.digitalRead10();
+  if(value == NULL) {
+    Serial.println("digitalRead10 → NULL");
+  } else {
+    Serial.println("digitalRead10 → " + value);
+  }
   return true;
 }
 
