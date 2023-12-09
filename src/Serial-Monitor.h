@@ -133,6 +133,24 @@ int SerialMonitor::initialize() {
   } else {
     Serial.println("digitalRead10 → " + value);
   }
+  value = serial.digitalRead11();
+  if(value == NULL) {
+    Serial.println("digitalRead11 → NULL");
+  } else {
+    Serial.println("digitalRead11 → " + value);
+  }
+  value = serial.digitalRead12();
+  if(value == NULL) {
+    Serial.println("digitalRead12 → NULL");
+  } else {
+    Serial.println("digitalRead12 → " + value);
+  }
+  value = serial.digitalRead13();
+  if(value == NULL) {
+    Serial.println("digitalRead13 → NULL");
+  } else {
+    Serial.println("digitalRead13 → " + value);
+  }
   return true;
 }
 
