@@ -85,6 +85,18 @@ int SerialMonitor::initialize() {
   } else {
     Serial.println("digitalRead2 → " + value);
   }
+  value = serial.digitalRead3();
+  if(value == NULL) {
+    Serial.println("digitalRead3 → NULL");
+  } else {
+    Serial.println("digitalRead3 → " + value);
+  }
+  value = serial.digitalRead4();
+  if(value == NULL) {
+    Serial.println("digitalRead4 → NULL");
+  } else {
+    Serial.println("digitalRead4 → " + value);
+  }
   return true;
 }
 
