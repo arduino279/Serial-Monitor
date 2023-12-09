@@ -29,6 +29,16 @@ class SerialMonitor {
     analogRead5();
     digitalRead2();
     digitalRead3();
+    digitalRead4();
+    digitalRead5();
+    digitalRead6();
+    digitalRead7();
+    digitalRead8();
+    digitalRead9();
+    digitalRead10();
+    digitalRead11();
+    digitalRead12();
+    digitalRead13();
 };
 
 int SerialMonitor::initialize() {
