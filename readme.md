@@ -37,8 +37,9 @@ serial.initialize();
 
 > [!TIP]
 > Insert the following code snippet to run your code after SerialMonitor initialized
-> ```ino
-> if(serial.initialize() == true) {
->   // Your code goes here
-> }
-> ```
+
+```ino
+if(serial.initialize() == true) {
+  // Your code goes here
+}
+```
