@@ -28,7 +28,7 @@ Create a new `SerialMonitor` Object
 
 ### Use
 
-> [!TIP]
+> [!NOTE]
 > Insert this code in the `setup` to run once
 
 ```ino
