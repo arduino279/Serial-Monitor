@@ -16,8 +16,15 @@
 ### Setup
 
 ```ino
+#define DEBUG <boolean>
+```
+
+Enable or disable `SerialMonitor`
+
+```ino
 SerialMonitor serial;
 ```
+Create a new `SerialMonitor` Object
 
 ### Use
 
