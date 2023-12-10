@@ -44,6 +44,7 @@ class SerialMonitor {
 };
 
 int SerialMonitor::initialize() {
+  while(DEBUG == true) {
   value = serial.analogRead0();
   if(value == NULL) {
     Serial.println("analogRead0 → NULL");
@@ -151,6 +152,7 @@ int SerialMonitor::initialize() {
     Serial.println("digitalRead13 → NULL");
   } else {
     Serial.println("digitalRead13 → " + value);
+  }
   }
   return true;
 }
