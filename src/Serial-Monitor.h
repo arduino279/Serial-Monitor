@@ -17,6 +17,8 @@ int digitalRead11 = digitalRead(11);
 int digitalRead12 = digitalRead(12);
 int digitalRead13 = digitalRead(13);
 
+Serial.begin(9600);
+
 class SerialMonitor {
   public:
     initialize();
@@ -39,8 +41,6 @@ class SerialMonitor {
     digitalRead12();
     digitalRead13();
 };
-
-Serial.begin(9600);
 
 int SerialMonitor::initialize() {
   value = serial.analogRead0();
