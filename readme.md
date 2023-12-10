@@ -28,7 +28,8 @@ Create a new `SerialMonitor` Object
 
 ### Use
 
-Use this code in the `loop`
+> [!WARNING]
+> It's recommend to run this code only once in the `setup`
 
 ```ino
 serial.initialize();
