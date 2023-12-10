@@ -155,7 +155,7 @@ int SerialMonitor::initialize() {
   }
   delay(7500);
   }
-  return true;
+  return DEBUG;
 }
 
 int SerialMonitor::analogRead0() {
