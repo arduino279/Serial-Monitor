@@ -1,3 +1,4 @@
+#define DEBUG true
 int analogRead0 = analogRead(A0);
 int analogRead1 = analogRead(A1);
 int analogRead2 = analogRead(A2);
