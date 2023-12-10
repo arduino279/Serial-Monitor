@@ -153,6 +153,7 @@ int SerialMonitor::initialize() {
   } else {
     Serial.println("digitalRead13 → " + value);
   }
+  delay(7500);
   }
   return true;
 }
