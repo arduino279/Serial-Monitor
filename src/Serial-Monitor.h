@@ -174,145 +174,145 @@ int SerialMonitor::initialize() {
 }
 
 int SerialMonitor::analogRead0() {
-  if(analogRead0 == NULL) {
+  if(analogRead_0 == NULL) {
     return NULL;
   } else {
-    return analogRead0;
+    return analogRead_0;
   }
 }
 
 int SerialMonitor::analogRead1() {
-  if(analogRead1 == NULL) {
+  if(analogRead_1 == NULL) {
     return NULL;
   } else {
-    return analogRead1;
+    return analogRead_1;
   }
 }
 
 int SerialMonitor::analogRead2() {
-  if(analogRead2 == NULL) {
+  if(analogRead_2 == NULL) {
     return NULL;
   } else {
-    return analogRead2;
+    return analogRead_2;
   }
 }
 
 int SerialMonitor::analogRead3() {
-  if(analogRead3 == NULL) {
+  if(analogRead_3 == NULL) {
     return NULL;
   } else {
-    return analogRead3;
+    return analogRead_3;
   }
 }
 
 int SerialMonitor::analogRead4() {
-  if(analogRead4 == NULL) {
+  if(analogRead_4 == NULL) {
     return NULL;
   } else {
-    return analogRead4;
+    return analogRead_4;
   }
 }
 
 int SerialMonitor::analogRead5() {
-  if(analogRead5 == NULL) {
+  if(analogRead_5 == NULL) {
     return NULL;
   } else {
-    return analogRead5;
+    return analogRead_5;
   }
 }
 
 int SerialMonitor::digitalRead2() {
-  if(digitalRead2 == NULL) {
+  if(digitalRead_2 == NULL) {
     return NULL;
   } else {
-    return digitalRead2;
+    return digitalRead_2;
   }
 }
 
 int SerialMonitor::digitalRead3() {
-  if(digitalRead3 == NULL) {
+  if(digitalRead_3 == NULL) {
     return NULL;
   } else {
-    return digitalRead3;
+    return digitalRead_3;
   }
 }
 
 int SerialMonitor::digitalRead4() {
-  if(digitalRead4 == NULL) {
+  if(digitalRead_4 == NULL) {
     return NULL;
   } else {
-    return digitalRead4;
+    return digitalRead_4;
   }
 }
 
 int SerialMonitor::digitalRead5() {
-  if(digitalRead5 == NULL) {
+  if(digitalRead_5 == NULL) {
     return NULL;
   } else {
-    return digitalRead5;
+    return digitalRead_5;
   }
 }
 
 int SerialMonitor::digitalRead6() {
-  if(digitalRead6 == NULL) {
+  if(digitalRead_6 == NULL) {
     return NULL;
   } else {
-    return digitalRead6;
+    return digitalRead_6;
   }
 }
 
 int SerialMonitor::digitalRead7() {
-  if(digitalRead7 == NULL) {
+  if(digitalRead_7 == NULL) {
     return NULL;
   } else {
-    return digitalRead7;
+    return digitalRead_7;
   }
 }
 
 int SerialMonitor::digitalRead8() {
-  if(digitalRead8 == NULL) {
+  if(digitalRead_8 == NULL) {
     return NULL;
   } else {
-    return digitalRead8;
+    return digitalRead_8;
   }
 }
 
 int SerialMonitor::digitalRead9() {
-  if(digitalRead9 == NULL) {
+  if(digitalRead_9 == NULL) {
     return NULL;
   } else {
-    return digitalRead9;
+    return digitalRead_9;
   }
 }
 
 int SerialMonitor::digitalRead10() {
-  if(digitalRead10 == NULL) {
+  if(digitalRead_10 == NULL) {
     return NULL;
   } else {
-    return digitalRead10;
+    return digitalRead_10;
   }
 }
 
 int SerialMonitor::digitalRead11() {
-  if(digitalRead11 == NULL) {
+  if(digitalRead_11 == NULL) {
     return NULL;
   } else {
-    return digitalRead11;
+    return digitalRead_11;
   }
 }
 
 int SerialMonitor::digitalRead12() {
-  if(digitalRead12 == NULL) {
+  if(digitalRead_12 == NULL) {
     return NULL;
   } else {
-    return digitalRead12;
+    return digitalRead_12;
   }
 }
 
 int SerialMonitor::digitalRead13() {
-  if(digitalRead13 == NULL) {
+  if(digitalRead_13 == NULL) {
     return NULL;
   } else {
-    return digitalRead13;
+    return digitalRead_13;
   }
 }
