@@ -144,13 +144,15 @@ int SerialMonitor::initialize() {
   if(value == NULL) {
     Serial.println("digitalRead12 → NULL");
   } else {
-    Serial.println("digitalRead12 → " + value);
+    Serial.print("digitalRead12 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead13();
   if(value == NULL) {
     Serial.println("digitalRead13 → NULL");
   } else {
-    Serial.println("digitalRead13 → " + value);
+    Serial.print("digitalRead13 → ");
+    Serial.println(value);
   }
   return DEBUG;
 }
