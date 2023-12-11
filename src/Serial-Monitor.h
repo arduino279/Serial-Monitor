@@ -1,4 +1,4 @@
-#define DEBUG true
+int value = 0;
 int analogRead0 = analogRead(A0);
 int analogRead1 = analogRead(A1);
 int analogRead2 = analogRead(A2);
@@ -44,7 +44,6 @@ class SerialMonitor {
 };
 
 int SerialMonitor::initialize() {
-  while(DEBUG == true) {
   value = serial.analogRead0();
   if(value == NULL) {
     Serial.println("analogRead0 → NULL");
@@ -152,8 +151,6 @@ int SerialMonitor::initialize() {
     Serial.println("digitalRead13 → NULL");
   } else {
     Serial.println("digitalRead13 → " + value);
-  }
-  delay(7500);
   }
   return DEBUG;
 }
