@@ -44,126 +44,126 @@ class SerialMonitor {
 };
 
 int SerialMonitor::initialize() {
-  value = this.analogRead0();
+  value = this->analogRead0();
   if(value == NULL) {
     Serial.println("analogRead0 → NULL");
   } else {
     Serial.print("analogRead0 → ");
     Serial.println(value);
   }
-  value = this.analogRead1();
+  value = this->analogRead1();
   if(value == NULL) {
     Serial.println("analogRead1 → NULL");
   } else {
     Serial.print("analogRead1 → ");
     Serial.println(value);
   }
-  value = this.analogRead2();
+  value = this->analogRead2();
   if(value == NULL) {
     Serial.println("analogRead2 → NULL");
   } else {
     Serial.print("analogRead2 → ");
     Serial.println(value);
   }
-  value = this.analogRead3();
+  value = this->analogRead3();
   if(value == NULL) {
     Serial.println("analogRead3 → NULL");
   } else {
     Serial.print("analogRead3 → ");
     Serial.println(value);
   }
-  value = this.analogRead4();
+  value = this->analogRead4();
   if(value == NULL) {
     Serial.println("analogRead4 → NULL");
   } else {
     Serial.print("analogRead4 → ");
     Serial.println(value);
   }
-  value = this.analogRead5();
+  value = this->analogRead5();
   if(value == NULL) {
     Serial.println("analogRead5 → NULL");
   } else {
     Serial.print("analogRead5 → ");
     Serial.println(value);
   }
-  value = this.digitalRead2();
+  value = this->digitalRead2();
   if(value == NULL) {
     Serial.println("digitalRead2 → NULL");
   } else {
     Serial.print("digitalRead2 → ");
     Serial.println(value);
   }
-  value = this.digitalRead3();
+  value = this->digitalRead3();
   if(value == NULL) {
     Serial.println("digitalRead3 → NULL");
   } else {
     Serial.print("digitalRead3 → ");
     Serial.println(value);
   }
-  value = this.digitalRead4();
+  value = this->digitalRead4();
   if(value == NULL) {
     Serial.println("digitalRead4 → NULL");
   } else {
     Serial.print("digitalRead4 → ");
     Serial.println(value);
   }
-  value = this.digitalRead5();
+  value = this->digitalRead5();
   if(value == NULL) {
     Serial.println("digitalRead5 → NULL");
   } else {
     Serial.print("digitalRead5 → ");
     Serial.println(value);
   }
-  value = this.digitalRead6();
+  value = this->digitalRead6();
   if(value == NULL) {
     Serial.println("digitalRead6 → NULL");
   } else {
     Serial.print("digitalRead6 → ");
     Serial.println(value);
   }
-  value = this.digitalRead7();
+  value = this->digitalRead7();
   if(value == NULL) {
     Serial.println("digitalRead7 → NULL");
   } else {
     Serial.print("digitalRead7 → ");
     Serial.println(value);
   }
-  value = this.digitalRead8();
+  value = this->digitalRead8();
   if(value == NULL) {
     Serial.println("digitalRead8 → NULL");
   } else {
     Serial.print("digitalRead8 → ");
     Serial.println(value);
   }
-  value = this.digitalRead9();
+  value = this->digitalRead9();
   if(value == NULL) {
     Serial.println("digitalRead9 → NULL");
   } else {
     Serial.print("digitalRead9 → ");
     Serial.println(value);
   }
-  value = this.digitalRead10();
+  value = this->digitalRead10();
   if(value == NULL) {
     Serial.println("digitalRead10 → NULL");
   } else {
     Serial.print("digitalRead10 → ");
     Serial.println(value);
   }
-  value = this.digitalRead11();
+  value = this->digitalRead11();
   if(value == NULL) {
     Serial.println("digitalRead11 → NULL");
   } else {
     Serial.print("digitalRead11 → ");
     Serial.println(value);
   }
-  value = this.digitalRead12();
+  value = this->digitalRead12();
   if(value == NULL) {
     Serial.println("digitalRead12 → NULL");
   } else {
     Serial.print("digitalRead12 → ");
     Serial.println(value);
   }
-  value = this.digitalRead13();
+  value = this->digitalRead13();
   if(value == NULL) {
     Serial.println("digitalRead13 → NULL");
   } else {
