@@ -48,97 +48,113 @@ int SerialMonitor::initialize() {
   if(value == NULL) {
     Serial.println("analogRead0 → NULL");
   } else {
-    Serial.println("analogRead0 → " + value);
+    Serial.print("analogRead0 → ");
+    Serial.println(value);
   }
   value = serial.analogRead1();
   if(value == NULL) {
     Serial.println("analogRead1 → NULL");
   } else {
-    Serial.println("analogRead1 → " + value);
+    Serial.print("analogRead1 → ");
+    Serial.println(value);
   }
   value = serial.analogRead2();
   if(value == NULL) {
     Serial.println("analogRead2 → NULL");
   } else {
-    Serial.println("analogRead2 → " + value);
+    Serial.print("analogRead2 → ");
+    Serial.println(value);
   }
   value = serial.analogRead3();
   if(value == NULL) {
     Serial.println("analogRead3 → NULL");
   } else {
-    Serial.println("analogRead3 → " + value);
+    Serial.print("analogRead3 → ");
+    Serial.println(value);
   }
   value = serial.analogRead4();
   if(value == NULL) {
     Serial.println("analogRead4 → NULL");
   } else {
-    Serial.println("analogRead4 → " + value);
+    Serial.print("analogRead4 → ");
+    Serial.println(value);
   }
   value = serial.analogRead5();
   if(value == NULL) {
     Serial.println("analogRead5 → NULL");
   } else {
-    Serial.println("analogRead5 → " + value);
+    Serial.print("analogRead5 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead2();
   if(value == NULL) {
     Serial.println("digitalRead2 → NULL");
   } else {
-    Serial.println("digitalRead2 → " + value);
+    Serial.print("digitalRead2 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead3();
   if(value == NULL) {
     Serial.println("digitalRead3 → NULL");
   } else {
-    Serial.println("digitalRead3 → " + value);
+    Serial.print("digitalRead3 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead4();
   if(value == NULL) {
     Serial.println("digitalRead4 → NULL");
   } else {
-    Serial.println("digitalRead4 → " + value);
+    Serial.print("digitalRead4 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead5();
   if(value == NULL) {
     Serial.println("digitalRead5 → NULL");
   } else {
-    Serial.println("digitalRead5 → " + value);
+    Serial.print("digitalRead5 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead6();
   if(value == NULL) {
     Serial.println("digitalRead6 → NULL");
   } else {
-    Serial.println("digitalRead6 → " + value);
+    Serial.print("digitalRead6 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead7();
   if(value == NULL) {
     Serial.println("digitalRead7 → NULL");
   } else {
-    Serial.println("digitalRead7 → " + value);
+    Serial.print("digitalRead7 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead8();
   if(value == NULL) {
     Serial.println("digitalRead8 → NULL");
   } else {
-    Serial.println("digitalRead8 → " + value);
+    Serial.print("digitalRead8 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead9();
   if(value == NULL) {
     Serial.println("digitalRead9 → NULL");
   } else {
-    Serial.println("digitalRead9 → " + value);
+    Serial.print("digitalRead9 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead10();
   if(value == NULL) {
     Serial.println("digitalRead10 → NULL");
   } else {
-    Serial.println("digitalRead10 → " + value);
+    Serial.print("digitalRead10 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead11();
   if(value == NULL) {
     Serial.println("digitalRead11 → NULL");
   } else {
-    Serial.println("digitalRead11 → " + value);
+    Serial.print("digitalRead11 → ");
+    Serial.println(value);
   }
   value = serial.digitalRead12();
   if(value == NULL) {
