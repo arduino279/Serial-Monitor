@@ -1,1 +1,35 @@
+# Syntax Coloring Map For SerialMonitor
+
+# Datatypes (KEYWORD1)
 SerialMonitor    KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+analogRead0    KEYWORD2
+analogRead1    KEYWORD2
+analogRead2    KEYWORD2
+analogRead3    KEYWORD2
+analogRead4    KEYWORD2
+analogRead5    KEYWORD2
+digitalRead2    KEYWORD2
+digitalRead3    KEYWORD2
+digitalRead4    KEYWORD2
+digitalRead5    KEYWORD2
+digitalRead6    KEYWORD2
+digitalRead7    KEYWORD2
+digitalRead8    KEYWORD2
+digitalRead9    KEYWORD2
+digitalRead10    KEYWORD2
+digitalRead11    KEYWORD2
+digitalRead12    KEYWORD2
+digitalRead13    KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
+serial    LITERAL1
+analogRead_0    LITERAL1
+analogRead_1    LITERAL1
+analogRead_2    LITERAL1
+analogRead_3    LITERAL1
+analogRead_4    LITERAL1
+analogRead_5    LITERAL1
