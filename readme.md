@@ -28,15 +28,9 @@ Create a new `SerialMonitor` Object
 
 ### Use
 
-> [!NOTE]
-> Insert this code in the `setup` to run once
-
 ```ino
 serial.initialize();
 ```
-
-> [!TIP]
-> Insert the following code snippet to run your code after SerialMonitor initialized
 
 ```ino
 if(serial.initialize() == true) {
