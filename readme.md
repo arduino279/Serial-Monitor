@@ -26,6 +26,11 @@ SerialMonitor serial;
 ```
 Create a new `SerialMonitor` Object
 
+```ino
+Serial.begin(9600);
+```
+Setup the serial monitor
+
 ### Use
 
 ```ino
