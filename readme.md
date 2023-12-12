@@ -54,7 +54,7 @@ if(serial.initialize() == true) {
   // Your code goes here
 }
 ```
-**Description** *No Description available**
+**Description** *No Description available*
 
 **Parameters**
 * `serial` Name of a declared class
