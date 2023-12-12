@@ -20,6 +20,8 @@
 ```
 **Description** Enable or disable `SerialMonitor`
 
+---
+
 ```ino
 SerialMonitor serial;
 ```
@@ -27,6 +29,8 @@ SerialMonitor serial;
 
 **Parameters**
 * `serial` Name of the class without spaces
+
+---
 
 ```ino
 Serial.begin(9600);
@@ -42,6 +46,8 @@ serial.initialize();
 
 **Parameters**
 * `serial` Name of a declared class
+
+---
 
 ```ino
 if(serial.initialize() == true) {
