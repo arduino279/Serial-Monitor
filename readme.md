@@ -47,6 +47,8 @@ serial.initialize();
 **Parameters**
 * `serial` Name of a declared class
 
+**Returns** a Boolean
+
 ---
 
 ```ino
