@@ -18,27 +18,37 @@
 ```ino
 #define DEBUG <boolean>
 ```
-
-Enable or disable `SerialMonitor`
+**Description** Enable or disable `SerialMonitor`
 
 ```ino
 SerialMonitor serial;
 ```
-Create a new `SerialMonitor` Object
+**Description** Create a new `SerialMonitor` Object
+
+**Parameters**
+* `serial` Name of the class without spaces
 
 ```ino
 Serial.begin(9600);
 ```
-Setup the serial monitor
+**Description** Setup the serial monitor
 
 ### Use
 
 ```ino
 serial.initialize();
 ```
+**Description** *No Description available*
+
+**Parameters**
+* `serial` Name of a declared class
 
 ```ino
 if(serial.initialize() == true) {
   // Your code goes here
 }
 ```
+**Description** *No Description available**
+
+**Parameters**
+* `serial` Name of a declared class
