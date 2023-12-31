@@ -42,7 +42,7 @@ Serial.begin(9600);
 ```ino
 serial.initialize();
 ```
-**Description** *No Description available*
+**Description** Initialize a new `serial` object
 
 **Parameters**
 * `serial` Name of a declared class
@@ -56,7 +56,7 @@ if(serial.initialize() == true) {
   // Your code goes here
 }
 ```
-**Description** *No Description available*
+**Description** Run the code after successful initialization
 
 **Parameters**
 * `serial` Name of a declared class
